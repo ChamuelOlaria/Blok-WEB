@@ -1,0 +1,106 @@
+html, body { margin: 0;}
+
+Main {
+   font-family: "Nexa-Bold", Georgia, Serif;
+}
+
+/**header**/
+
+header nav ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0.5em 0em 0.5em 0em;
+    box-shadow: 1px 2px 5px #e2e2e2;
+}
+
+header nav li:nth-of-type(1) {
+    background-image: url(../plaatjes/tansavia-logo-01.png);
+    background-size: 8em;
+    background-repeat: no-repeat;
+    width: 8em;
+    margin-left: 1em;
+    margin-right: auto;
+    height: 1.7em;
+    list-style: none;
+}
+
+header nav li:nth-of-type(2) {
+    background-image: url(../plaatjes/search_icon.jpg);
+    background-size: 4em;
+    background-repeat: no-repeat;
+    list-style: none;
+    width: 4em;
+    border-radius: 1em;
+    box-shadow: 1px 3px #120146;
+}
+
+header nav li:nth-of-type(3) {
+    background-image: url(../plaatjes/Account_icon.png);
+    background-size: 2em;
+    background-repeat: no-repeat;
+    width: 2em;
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+    height: 2em;
+    list-style: none;
+}
+
+/** texts **/
+
+h1 {
+    color: #00D66C;
+    padding-left: 0.5em;
+    text-align: center;
+
+}
+
+h2 {
+    color: #2800A0;
+    text-align: center;
+}
+
+h3 {
+    margin: auto;
+    text-align: left;
+}
+
+
+h4 {
+    text-align: center;
+
+}
+
+
+/**buttons**/
+
+button.inloggen {
+    display:inline-flex;
+    justify-content: center;
+    color: white;
+    background-color: transparent;
+    font-size: 1em;
+    padding: 1em 1em 1em 3em;
+    border: none;
+    min-width:100%;
+}
+
+button.home {
+    display:inline-flex;
+    justify-content: center;
+    color: white;
+    background-color: transparent;
+    font-size: 1em;
+    padding: 0.5em 2em 0.4em 2em;
+    border: none;
+    min-width:100%;
+}
+
+/**body**/
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
